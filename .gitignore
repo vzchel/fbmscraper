@@ -1,0 +1,48 @@
+# ─── Credentials / Secrets ─────────────────────────────
+.env
+*.env
+
+# ─── Runtime files ─────────────────────────────────────
+fbm_cookies.json
+fbm_seen.json
+fbm_monitor.log
+
+# Optional configs containing private webhooks/emails
+fbm_config.json
+fbm_queries.json
+
+# ─── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ─── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+
+# ─── OS files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Selenium / Browser temp ───────────────────────────
+*.log
